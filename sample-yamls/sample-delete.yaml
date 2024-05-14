@@ -1,0 +1,10 @@
+deploy: 
+  - table: simple_table
+    pk: id
+    action: delete
+    columns:
+      id: string
+    data:
+      - id: 1
+      - id: 2
+      - id: 7
