@@ -1,0 +1,26 @@
+deploy:
+  - table: simple_table
+    pk: id
+    action: update
+    columns:
+      id: string
+      name: string
+      age: int
+      json: json
+    data:
+      - id: 1
+        name: John
+        age: 30
+        json: |
+          {
+            "key1": "value1",
+            "key2": "value2"
+          }
+      - id: 2
+        name: Jane
+        age: 25
+        json: |
+          {
+            "key1": "value1",
+            "key2": "value2"
+          }
