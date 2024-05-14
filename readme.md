@@ -15,6 +15,9 @@ Features in v0.1.0 of ConfigCobra
 - basic local validation of fields supplied against a list of columns
 - flexible pk field names
 
+Database connection is controlled by environment variables since the intended use case for this is inside a container
+
+
 This software is offered without warranty or obligation. 
 
 Contributions to the base that is here is welcome via pull requests. Please ensure any contributions are clearly defined. If they don't match with the goals of the project they will be rejected. If you wish to fork then go for it!
