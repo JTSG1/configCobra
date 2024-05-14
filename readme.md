@@ -17,6 +17,15 @@ Features in v0.1.0 of ConfigCobra
 
 Database connection is controlled by environment variables since the intended use case for this is inside a container
 
+for example:
+
+``` bash
+CONFIG_COBRA_DB_NAME=load-test
+CONFIG_COBRA_DB_USER=user-name
+CONFIG_COBRA_DB_PASSWORD=strong-password
+CONFIG_COBRA_DB_HOST=localhost
+CONFIG_COBRA_DB_PORT=54321
+```
 
 This software is offered without warranty or obligation. 
 
