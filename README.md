@@ -121,7 +121,7 @@ deploy:
 #### To update or insert
 
 ``` yaml
-
+deploy:
   - table: simple_table
     pk: id
     action: update_or_insert
