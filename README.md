@@ -1,4 +1,4 @@
-# ConfigCobra v0.1.4
+# ConfigCobra v0.1.6
 
 This is a basic project to provide a way to deploy database configuration to remote databases via pipelines. The basic premise is that we can control the config via yaml file declarations.  These yaml files provide instructions on what operation should be performed on data and the fields associated with it.
 
@@ -8,7 +8,7 @@ This is the initial version and the feature set is somewhat limited but useful f
 
 ## features
 
-Features in v0.1.4 of ConfigCobra
+Features in v0.1.6 of ConfigCobra
 
 - postgres data deployments
 - Supports standard CRUD operations
